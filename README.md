@@ -2,6 +2,8 @@
 
 > **Seal the last frame of your day.**
 
+▶️ Live Demo: https://daycap-rust.vercel.app/
+
 ![Daycap Logo](./public/assets/daycap-logo.png)
 
 ---
