@@ -1,87 +1,52 @@
-# Welcome to React Router!
+# Daycap
 
-A modern, production-ready template for building full-stack React applications using React Router.
+> **Seal the last frame of your day.**
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+![Daycap Logo](./public/assets/daycap-logo.png)
 
 ---
 
-Built with ❤️ using React Router.
+## 📌 Elevator Pitch
+
+Every midnight, the canvas freezes — preserving its **final frame** in a permanent history archive, inspired by _r/place_.  
+Join in, place your pixel, and be part of a daily snapshot that will never repeat.
+
+---
+
+## ✨ Slogan
+
+**Cap your day today**
+
+---
+
+## 🎨 Visual Identity
+
+### Colors
+
+| Name     | Hex       | Preview                                             |
+| -------- | --------- | --------------------------------------------------- |
+| Ice Blue | `#A6D1FF` | ![#A6D1FF](https://placehold.co/200/A6D1FF/000/png) |
+
+### Typography
+
+- [Inter](https://fonts.google.com/specimen/Inter)
+
+### Logo Concepts
+
+1. **Wordmark:** `DAYCAP` with a thin horizontal line above `CAP` to imply “closure.”
+2. **Symbol:** `D` enclosing a closing bar `]` to represent “freeze/lock.”
+
+---
+
+## 🛠 Features
+
+- **Live Canvas**: Place pixels in real-time with other users.
+- **Daycap Timer**: Countdown to midnight freeze.
+- **Daycap Frame**: Auto-save the final frame of the day.
+- **Frame Archive**: Browse and revisit past days.
+
+---
+
+📜 License
+
+MIT © 2025 Daycap Project
