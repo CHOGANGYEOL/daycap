@@ -25,7 +25,7 @@ Join in, place your pixel, and be part of a daily snapshot that will never repea
 
 | Name     | Hex       | Preview                                             |
 | -------- | --------- | --------------------------------------------------- |
-| Ice Blue | `#A6D1FF` | ![#A6D1FF](https://placehold.co/200/A6D1FF/000/png) |
+| Ice Blue | `#A6D1FF` | ![#A6D1FF](https://placehold.co/100/A6D1FF/000/png) |
 
 ### Typography
 
