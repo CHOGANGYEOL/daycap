@@ -1,3 +1,4 @@
+import type { Route } from "./+types/root";
 import {
   isRouteErrorResponse,
   Links,
@@ -6,9 +7,18 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
+import "./styles/global.css";
 
-import type { Route } from "./+types/root";
-import "./app.css";
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Daycap" },
+    {
+      name: "description",
+      content:
+        "Every midnight, the canvas freezes — preserving its final frame in a permanent history archive, inspired by r/place. Join in, place your pixel, and be part of a daily snapshot that will never repeat.",
+    },
+  ];
+}
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
