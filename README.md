@@ -49,6 +49,17 @@ Join in, place your pixel, and be part of a daily snapshot that will never repea
 
 ---
 
+## 🧱 Tech Stack
+
+| Layer    | Tech                                                       |
+| -------- | ---------------------------------------------------------- |
+| Frontend | [React Router](https://reactrouter.com/) (Frame Work Mode) |
+| Data/API | React Router Loaders & Actions                             |
+| Database | [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)        |
+| Deploy   | [Vercel](https://vercel.com/)                              |
+
+---
+
 📜 License
 
 MIT © 2025 Daycap Project
